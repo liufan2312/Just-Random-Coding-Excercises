@@ -1,11 +1,9 @@
 package com.company;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
 
-public class Main {
+import java.util.HashMap;
+
+public class LeetCode {
 
     //Longest Substring Without Repeating Characters
     public int lengthOfLongestSubstring(String s) {
@@ -81,7 +79,6 @@ public class Main {
         dummy.next.next = dummy.next.next.next;
         return head;
     }
-
     public static void main(String[] args){
 
     }
